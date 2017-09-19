@@ -1,9 +1,8 @@
 function mayor= elem_mayor(v)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%elem_mayor Regresa el elemento cuyo valor absoluto sea mayor
 mayor=0;
 for i= 1:size(v,2)
-    if(abs(norm(v(i)))>mayor)
+    if(abs(norm(v(i)))>abs(mayor))
         mayor=v(i);
     end
 end
