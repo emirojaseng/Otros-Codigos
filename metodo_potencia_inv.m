@@ -16,5 +16,5 @@ while(norm(q0-q1)/norm(q1)>tol && cont<k)
 q1=q1/elem_mayor(q0);
 end  
 sigmai=1/elem_mayor(q1)+rho; %despeja para obtener el vap de A
-qi=q1;
+qi=q1/norm(q1); %vuelve unitario el vep
 end
