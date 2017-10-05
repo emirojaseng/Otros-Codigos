@@ -1,5 +1,5 @@
 function [G] = ejercicio6(n,p)
-%aParte3 Crea la la matriz de adyacencia con 2n+1 puntos descrita en la parte 3,
+%aejercicio6 Crea la la matriz de adyacencia con 2n+1 puntos descrita en el ejercicio 6,
 %posteriormente regresa la matriz google G correspondiente (con parametro de probabilidad p)
 
 %__Primero crea la matriz de adyacencia A y la muestra__%
