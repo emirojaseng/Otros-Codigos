@@ -1,0 +1,8 @@
+rand_elip<-function(dim){
+  W=matrix(runif(dim*dim,0.5,1.5), nrow=dim, ncol=dim)
+  W=t(W)%*%W
+    elip<-function(x){
+      norm(W%*%x)
+    }
+  return(elip)
+}
